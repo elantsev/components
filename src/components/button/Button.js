@@ -26,7 +26,7 @@ const Button = ({
   return (
     <Tag
       className={classes}
-      disable={disabled}
+      disabled={disabled}
       onClick={onClickAction}
       {...attrs}
     >
