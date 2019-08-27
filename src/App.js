@@ -10,6 +10,7 @@ import Input from "./components/input/Input";
 import InputsCollection from "./components/input/InputsCollection";
 import TabBar from "./components/tabbar/TabBar";
 import TabBarCollection from "./components/tabbar/TabBarCollection";
+import TooltipCollection from "./components/tooltip/TooltipCollection";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Badges></Badges> */}
       {/* <ListGroupItemCollection /> */}
       {/* <InputsCollection /> */}
-      <TabBarCollection />
+      {/* <TabBarCollection /> */}
+      <TooltipCollection />
     </div>
   );
 }
