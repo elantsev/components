@@ -4,7 +4,7 @@ import { PropTypes } from "prop-types";
 import "./Icon.css";
 
 const Icon = ({ name, onClick, size, className, disabled, ...attrs }) => {
-  const elemSize = size ? { fontsize: `${size}rem` } : null;
+  const elemSize = size ? { fontSize: `${size}rem` } : null;
   const classes = classNames(
     "fas",
     `fa-${name}`,

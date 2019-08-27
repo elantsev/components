@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Badge from "./Badge";
 import Button from "../button/Button";
 import Icon from "../icon/Icon";
 
-const Badges = () => (
-  <Fragment>
+const BadgeCollection = () => (
+  <>
     <h2>
       <span>1. Badges with text:</span>
     </h2>
@@ -89,7 +89,7 @@ const Badges = () => (
       <Icon name="rss" />
       <Badge info value={1} />
     </Button>
-  </Fragment>
+  </>
 );
 
-export default Badges;
+export default BadgeCollection;

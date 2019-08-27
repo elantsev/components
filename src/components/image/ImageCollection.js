@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "./Image";
 
-const ImageGroup = () => (
+const ImageCollection = () => (
   <>
     <h2>
       <span>1. Base image placeholder:</span>
@@ -38,7 +38,7 @@ const ImageGroup = () => (
     <Image
       src="https://pp.userapi.com/a9QrnDt7kgIb8VkcrCWpCoqd7JRwq5wX_YDr7Q/pOMxeuWzvxg.jpg?ava=1"
       onClick={() => {
-        console.log("'I'm pressed");
+        console.log("I'm pressed");
       }}
     />
     <h2>
@@ -54,4 +54,4 @@ const ImageGroup = () => (
   </>
 );
 
-export default ImageGroup;
+export default ImageCollection;

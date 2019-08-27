@@ -2,7 +2,7 @@ import React from "react";
 import Chip from "./Chip";
 import Example from "./Example";
 
-const Chips = () => (
+const ChipCollection = () => (
   <>
     <h2>
       <span>1. Chip with text:</span>
@@ -78,4 +78,4 @@ const Chips = () => (
     <Example />
   </>
 );
-export default Chips;
+export default ChipCollection;

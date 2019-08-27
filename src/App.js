@@ -1,28 +1,28 @@
 import React from "react";
 import "./App.css";
 
-import Badges from "./components/badge/Badges";
-import ListGroup from "./components/list-group/ListGroup";
-import ListGroupItem from "./components/list-group/ListGroupItem";
-import ListGroupItemCollection from "./components/list-group/ListGroupItemCollection";
-import Chips from "./components/chip/Chips";
-import Input from "./components/input/Input";
-import InputsCollection from "./components/input/InputsCollection";
-import TabBar from "./components/tabbar/TabBar";
+import BadgeCollection from "./components/badge/BadgeCollection";
+import ButtonCollection from "./components/button/ButtonCollection";
+import ButtonGroupCollection from "./components/buttonGroup/ButtonGroupCollection";
+import ChipCollection from "./components/chip/ChipCollection";
+import IconCollection from "./components/icon/IconCollection";
+import ImageCollection from "./components/image/ImageCollection";
+import InputCollection from "./components/input/InputCollection";
+import ListGroupCollection from "./components/list-group/ListGroupCollection";
 import TabBarCollection from "./components/tabbar/TabBarCollection";
 import TooltipCollection from "./components/tooltip/TooltipCollection";
 
 function App() {
   return (
     <div className="App">
-      {/* <ButtonCollection />
-      <ButtonGroupCollection /> */}
-      {/* <Icon onClick={() => console.log("!!!")}>ddd</Icon> */}
-      {/* <ImageGroup /> */}
-      {/* <Chips /> */}
-      {/* <Badges></Badges> */}
-      {/* <ListGroupItemCollection /> */}
-      {/* <InputsCollection /> */}
+      {/* <BadgeCollection /> */}
+      {/* <ButtonCollection /> */}
+      {/* <ButtonGroupCollection /> */}
+      {/* <ChipCollection /> */}
+      {/* <IconCollection /> */}
+      {/* <ImageCollection /> */}
+      {/* <InputCollection /> */}
+      {/* <ListGroupCollection /> */}
       {/* <TabBarCollection /> */}
       <TooltipCollection />
     </div>

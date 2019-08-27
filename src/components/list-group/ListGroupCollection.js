@@ -4,7 +4,7 @@ import ListGroupItem from "./ListGroupItem";
 import Badge from "../badge/Badge";
 import Button from "../button/Button";
 
-const ListGroupItemCollection = () => (
+const ListGroupCollection = () => (
   <>
     <h2>
       <span>1. Base Group list:</span>
@@ -61,4 +61,4 @@ const ListGroupItemCollection = () => (
   </>
 );
 
-export default ListGroupItemCollection;
+export default ListGroupCollection;

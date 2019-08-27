@@ -1,7 +1,7 @@
 import React from "react";
 import Input from "./Input";
 
-const InputsCollection = () => (
+const InputCollection = () => (
   <div
     style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gridGap: "20px" }}
   >
@@ -57,4 +57,4 @@ const InputsCollection = () => (
   </div>
 );
 
-export default InputsCollection;
+export default InputCollection;
